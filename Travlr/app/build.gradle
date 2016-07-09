@@ -23,6 +23,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
+<<<<<<< HEAD
     compile 'com.google.android.gms:play-services-places:9.2.0'
     compile 'com.android.support:design:24.0.0'
     compile 'com.android.support:recyclerview-v7:24.0.0'
@@ -30,4 +31,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.3.1'
     compile 'com.android.support:support-v4:24.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
+=======
+>>>>>>> 24ea307b1dd97643b5affc8e6a4b27ae4cb5b196
 }

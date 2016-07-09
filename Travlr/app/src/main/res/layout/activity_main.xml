@@ -9,6 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.travlr.MainActivity">
 
+<<<<<<< HEAD
 
 
         <android.support.v7.widget.RecyclerView
@@ -49,3 +50,10 @@
 
     </RelativeLayout>
 
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+</RelativeLayout>
+>>>>>>> 24ea307b1dd97643b5affc8e6a4b27ae4cb5b196

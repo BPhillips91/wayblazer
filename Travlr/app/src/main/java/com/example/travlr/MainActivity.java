@@ -3,6 +3,7 @@ package com.example.travlr;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+<<<<<<< HEAD
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -19,10 +20,15 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
     private GoogleApiClient mGoogleApiClient;
    OkHttpClient client;
+=======
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> 24ea307b1dd97643b5affc8e6a4b27ae4cb5b196
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
         client = new OkHttpClient();
 
@@ -56,4 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+=======
+    }
+>>>>>>> 24ea307b1dd97643b5affc8e6a4b27ae4cb5b196
 }
